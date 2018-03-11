@@ -47,8 +47,7 @@ In progress.....
 
 It's very easy to use, just follow these steps:
 
-
-### Initializing
+### Initializing
 
 ```swift
 var container: Infinity?

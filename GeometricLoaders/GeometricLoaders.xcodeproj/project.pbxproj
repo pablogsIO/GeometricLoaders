@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0F1A581FA38D7A00C764E6 /* Infinity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F1A571FA38D7A00C764E6 /* Infinity.swift */; };
+		6E0F1A5A1FA6619800C764E6 /* Orbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F1A591FA6619800C764E6 /* Orbit.swift */; };
+		6E2609351F97D4C900239D0A /* CircleLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2609341F97D4C900239D0A /* CircleLoader.swift */; };
+		6E459EF41F9521B900E5238F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E459EF31F9521B900E5238F /* AppDelegate.swift */; };
+		6E459EF61F9521B900E5238F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E459EF51F9521B900E5238F /* ViewController.swift */; };
+		6E459EF91F9521B900E5238F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E459EF71F9521B900E5238F /* Main.storyboard */; };
+		6E459EFB1F9521B900E5238F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E459EFA1F9521B900E5238F /* Assets.xcassets */; };
+		6E459EFE1F9521B900E5238F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E459EFC1F9521B900E5238F /* LaunchScreen.storyboard */; };
+		6E459F061F9522C400E5238F /* GeometricLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E459F051F9522C400E5238F /* GeometricLoader.swift */; };
+		6E45A95E1FA122C200E1E4D3 /* BlinkingCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E45A95D1FA122C200E1E4D3 /* BlinkingCircles.swift */; };
+		6EA892DC1F9CF0CA000CA8BA /* CirclesInMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA892DB1F9CF0CA000CA8BA /* CirclesInMotion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E0F1A571FA38D7A00C764E6 /* Infinity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infinity.swift; sourceTree = "<group>"; };
+		6E0F1A591FA6619800C764E6 /* Orbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orbit.swift; sourceTree = "<group>"; };
+		6E2609341F97D4C900239D0A /* CircleLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLoader.swift; sourceTree = "<group>"; };
+		6E459EF01F9521B900E5238F /* GeometricLoaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricLoaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E459EF31F9521B900E5238F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E459EF51F9521B900E5238F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E459EF81F9521B900E5238F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E459EFA1F9521B900E5238F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E459EFD1F9521B900E5238F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E459EFF1F9521B900E5238F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E459F051F9522C400E5238F /* GeometricLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricLoader.swift; sourceTree = "<group>"; };
+		6E45A95D1FA122C200E1E4D3 /* BlinkingCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkingCircles.swift; sourceTree = "<group>"; };
+		6EA892DB1F9CF0CA000CA8BA /* CirclesInMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesInMotion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E459EED1F9521B900E5238F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E2609361F97D4D000239D0A /* GeometricLoader */ = {
+			isa = PBXGroup;
+			children = (
+				6E459F051F9522C400E5238F /* GeometricLoader.swift */,
+				6E0F1A571FA38D7A00C764E6 /* Infinity.swift */,
+				6E0F1A591FA6619800C764E6 /* Orbit.swift */,
+				6EA892DB1F9CF0CA000CA8BA /* CirclesInMotion.swift */,
+				6E45A95D1FA122C200E1E4D3 /* BlinkingCircles.swift */,
+				6E2609341F97D4C900239D0A /* CircleLoader.swift */,
+			);
+			path = GeometricLoader;
+			sourceTree = "<group>";
+		};
+		6E459EE71F9521B900E5238F = {
+			isa = PBXGroup;
+			children = (
+				6E459EF21F9521B900E5238F /* GeometricLoaders */,
+				6E459EF11F9521B900E5238F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E459EF11F9521B900E5238F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E459EF01F9521B900E5238F /* GeometricLoaders.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E459EF21F9521B900E5238F /* GeometricLoaders */ = {
+			isa = PBXGroup;
+			children = (
+				6E459EF31F9521B900E5238F /* AppDelegate.swift */,
+				6E459EF51F9521B900E5238F /* ViewController.swift */,
+				6E459EF71F9521B900E5238F /* Main.storyboard */,
+				6E459EFA1F9521B900E5238F /* Assets.xcassets */,
+				6E459EFC1F9521B900E5238F /* LaunchScreen.storyboard */,
+				6E459EFF1F9521B900E5238F /* Info.plist */,
+				6E2609361F97D4D000239D0A /* GeometricLoader */,
+			);
+			path = GeometricLoaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E459EEF1F9521B900E5238F /* GeometricLoaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E459F021F9521B900E5238F /* Build configuration list for PBXNativeTarget "GeometricLoaders" */;
+			buildPhases = (
+				6E459EEC1F9521B900E5238F /* Sources */,
+				6E459EED1F9521B900E5238F /* Frameworks */,
+				6E459EEE1F9521B900E5238F /* Resources */,
+				6EA892DA1F9C9290000CA8BA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometricLoaders;
+			productName = GeometricLoaders;
+			productReference = 6E459EF01F9521B900E5238F /* GeometricLoaders.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E459EE81F9521B900E5238F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Pablo;
+				TargetAttributes = {
+					6E459EEF1F9521B900E5238F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6E459EEB1F9521B900E5238F /* Build configuration list for PBXProject "GeometricLoaders" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E459EE71F9521B900E5238F;
+			productRefGroup = 6E459EF11F9521B900E5238F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E459EEF1F9521B900E5238F /* GeometricLoaders */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E459EEE1F9521B900E5238F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E459EFE1F9521B900E5238F /* LaunchScreen.storyboard in Resources */,
+				6E459EFB1F9521B900E5238F /* Assets.xcassets in Resources */,
+				6E459EF91F9521B900E5238F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EA892DA1F9C9290000CA8BA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E459EEC1F9521B900E5238F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E459EF61F9521B900E5238F /* ViewController.swift in Sources */,
+				6E0F1A581FA38D7A00C764E6 /* Infinity.swift in Sources */,
+				6E45A95E1FA122C200E1E4D3 /* BlinkingCircles.swift in Sources */,
+				6E459EF41F9521B900E5238F /* AppDelegate.swift in Sources */,
+				6EA892DC1F9CF0CA000CA8BA /* CirclesInMotion.swift in Sources */,
+				6E2609351F97D4C900239D0A /* CircleLoader.swift in Sources */,
+				6E0F1A5A1FA6619800C764E6 /* Orbit.swift in Sources */,
+				6E459F061F9522C400E5238F /* GeometricLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E459EF71F9521B900E5238F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E459EF81F9521B900E5238F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E459EFC1F9521B900E5238F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E459EFD1F9521B900E5238F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E459F001F9521B900E5238F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E459F011F9521B900E5238F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E459F031F9521B900E5238F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPX33GAW49;
+				INFOPLIST_FILE = "$(SRCROOT)/GeometricLoaders/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pablogs.io.GeometricLoaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6E459F041F9521B900E5238F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QPX33GAW49;
+				INFOPLIST_FILE = "$(SRCROOT)/GeometricLoaders/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pablogs.io.GeometricLoaders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E459EEB1F9521B900E5238F /* Build configuration list for PBXProject "GeometricLoaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E459F001F9521B900E5238F /* Debug */,
+				6E459F011F9521B900E5238F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E459F021F9521B900E5238F /* Build configuration list for PBXNativeTarget "GeometricLoaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E459F031F9521B900E5238F /* Debug */,
+				6E459F041F9521B900E5238F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E459EE81F9521B900E5238F /* Project object */;
+}

@@ -88,7 +88,10 @@ blinkingCirclesGeometricLoader.totalCircles = 10
 orbitGeometricLoader.circleColor = UIColor.red
 ```
 ### CircleLoader
-
+```swift
+orbitGeometricLoader.startGradientColor = UIColor.blue.cgColor
+orbitGeometricLoader.endGradientColor = UIColor.green.cgColor
+```
 
 # License
 

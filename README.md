@@ -51,7 +51,8 @@ It's very easy to use, just follow these steps:
 
 ```swift
 var container: Infinity?
-``
+```
+
 In viewDidAppear function of your ViewController add the following sentence:
 ```swift
 container = Infinity.createGeometricLoader()

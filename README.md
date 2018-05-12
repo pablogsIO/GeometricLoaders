@@ -1,8 +1,8 @@
 # GeometricLoaders
 ![](https://img.shields.io/badge/language-swift-blue.svg)
 ![](https://img.shields.io/badge/version-1.0.0-red.svg)
-[![License](https://img.shields.io/cocoapods/l/RecordButton.svg?style=flat)](http://cocoapods.org/pods/RecordButton)
-[![Platform](https://img.shields.io/cocoapods/p/RecordButton.svg?style=flat)](http://cocoapods.org/pods/RecordButton)
+[![License](https://img.shields.io/cocoapods/l/RecordButton.svg?style=flat)](https://github.com/pablogsIO/GeometricLoaders)
+[![Platform](https://img.shields.io/cocoapods/p/RecordButton.svg?style=flat)](https://github.com/pablogsIO/GeometricLoaders)
 
 Fancy and beautiful loaders for you awesome apps!
 

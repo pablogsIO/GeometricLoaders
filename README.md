@@ -99,4 +99,4 @@ orbitGeometricLoader.endGradientColor = UIColor.green.cgColor
 
 `GeometricLoaders` is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
 
-If you use it, i'll be happy to know about it.
+If you use it, I'll be happy to know about it.

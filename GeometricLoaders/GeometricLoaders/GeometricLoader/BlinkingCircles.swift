@@ -36,9 +36,9 @@ class BlinkingCircles: GeometricLoader,CAAnimationDelegate {
         let even = (totalCircles % 2 == 0)
         let middle :Int = totalCircles/2
         let circleOffset = even ? CGFloat(circlesSpacing)/2.0 :  CGFloat(-circleRadius)/2.0
-        let x: CGFloat = center.x - CGFloat(middle*circlesSpacing) + circleOffset
+        let xPos: CGFloat = center.x - CGFloat(middle*circlesSpacing) + circleOffset
         
-        firstCirclePosition.x = x
+        firstCirclePosition.x = xPos
         firstCirclePosition.y = center.y
     }
     

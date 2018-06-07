@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         let width: CGFloat = view.frame.width
         let height: CGFloat = view.frame.height
         let window = UIApplication.shared.delegate?.window!
-        let items = ["Infinity", "Orbit", "Motion", "Blinking", "Circle"]
+        let items = ["Infinity", "Orbit", "Motion", "Blinking", "Circle", "Water Circle"]
         segmentedControl = UISegmentedControl(items: items)
         segmentedControl.selectedSegmentIndex = 0
         segmentedControl.layer.cornerRadius = 5.0
@@ -52,6 +52,8 @@ class ViewController: UIViewController {
             geometricLoader = BlinkingCircles.createGeometricLoader()
         case 4:
             geometricLoader = CircleLoader.createGeometricLoader()
+        case 5:
+            geometricLoader = WaterCircles.createGeometricLoader()
         default:
             print("default")
         }

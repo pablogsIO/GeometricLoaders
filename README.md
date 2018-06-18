@@ -31,6 +31,11 @@ Fancy and beautiful loaders for you awesome apps!
 <img src="Images/circleLoader.gif" height="120px"/>
 </p>
 
+**Water Waves loader**
+<p align="center">
+<img src="Images/waterwaves.gif" height="120px"/>
+</p>
+
 # Requirements
 
 * Swift 3,4
@@ -91,8 +96,13 @@ orbitGeometricLoader.circleColor = UIColor.red
 ```
 ### CircleLoader
 ```swift
-orbitGeometricLoader.startGradientColor = UIColor.blue.cgColor
-orbitGeometricLoader.endGradientColor = UIColor.green.cgColor
+circleLoader.startGradientColor = UIColor.blue.cgColor
+circleLoader.endGradientColor = UIColor.green.cgColor
+```
+### WaterWaves
+```swift
+waterwavesLoader.numberCircles = 3
+waterwavesLoader.circleColor = UIColor.green.cgColor
 ```
 
 # License

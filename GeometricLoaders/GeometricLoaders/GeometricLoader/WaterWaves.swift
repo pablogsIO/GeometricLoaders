@@ -7,20 +7,21 @@
 //
 import UIKit
 
-class WaterCircles: GeometricLoader {
+class WaterWaves: GeometricLoader {
     
     internal var shapeLayer = CAShapeLayer()
+    internal var duration: CGFloat = 5.0
     private var circleRadius: CGFloat = 20
-    private var numberCircles = 3
+    open var numberCircles = 3
     
     open var circleColor = UIColor(displayP3Red: 65/255.0, green: 131/255.0, blue: 215/255.0, alpha: 1)
     
     override internal func configureLoader() {
 
         let startingTimeInterval = CACurrentMediaTime()
-        var offset = 0.0
+        var offset = 2.0
         let offsetFactor = 0.5
-       
+        
         for _ in 1...numberCircles {
             
             var circle = CAShapeLayer()
@@ -31,6 +32,21 @@ class WaterCircles: GeometricLoader {
             offset += offsetFactor
             
         }
+    }
+    
+    private func setupCircle() -> CAShapeLayer {
+        
+        let layer = CAShapeLayer()
+        
+        layer.bounds = CGRect(origin: CGPoint(x: loaderView.bounds.width/2, y: loaderView.bounds.height/2), size: CGSize(width: circleRadius*2.0, height: circleRadius*2.0))
+        layer.path = UIBezierPath(roundedRect: layer.bounds, cornerRadius: circleRadius).cgPath
+        layer.fillColor = UIColor.clear.cgColor
+        layer.lineWidth = 2
+        layer.strokeColor = circleColor.cgColor
+        layer.opacity = 0
+        layer.position = CGPoint(x: loaderView.layer.position.x-loaderView.frame.width/2, y: loaderView.frame.height/2)
+        
+        return layer
     }
     
     private func groupAnimation(begin: TimeInterval) -> CAAnimationGroup {
@@ -68,26 +84,11 @@ class WaterCircles: GeometricLoader {
         return fadeOut
     }
     
-    private func setupCircle() -> CAShapeLayer {
-        
-        let layer = CAShapeLayer()
-        
-        layer.bounds = CGRect(origin: CGPoint(x: loaderView.bounds.width/2, y: loaderView.bounds.height/2), size: CGSize(width: circleRadius*2.0, height: circleRadius*2.0))
-        layer.path = UIBezierPath(roundedRect: layer.bounds, cornerRadius: circleRadius).cgPath
-        layer.fillColor = UIColor.clear.cgColor
-        layer.lineWidth = 2
-        layer.strokeColor = circleColor.cgColor
-        layer.opacity = 0
-        layer.position = CGPoint(x: loaderView.bounds.width/2, y: loaderView.bounds.height/2)
-        
-        return layer
-    }
-    
     private func scaleAnimation() -> CABasicAnimation {
 
         let scaleAnimation = CABasicAnimation(keyPath: "transform.scale")
         
-        scaleAnimation.fromValue = 0.0
+        scaleAnimation.fromValue = 0.1
         scaleAnimation.toValue = 1.5
         scaleAnimation.duration = 2
         scaleAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)

@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         case 4:
             geometricLoader = CircleLoader.createGeometricLoader()
         case 5:
-            geometricLoader = WaterCircles.createGeometricLoader()
+            geometricLoader = WaterWaves.createGeometricLoader()
         default:
             print("default")
         }

@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/pablogsIO/GeometricLoaders"
   s.license      = 'MIT'
   s.author       = "Pablo Garcia"
-  s.source       = { :git => "https://github.com/pablogsIO/GeometricLoaders.git", :tag => "v1.0" }
+  s.source       = { :git => "https://github.com/pablogsIO/GeometricLoaders.git", :tag => "1.0" }
   s.platform     = :ios, '10.0'
   s.source_files = 'Source'
   s.frameworks   = 'UIKit'

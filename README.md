@@ -57,6 +57,7 @@ pod 'GeometricLoaders', '~>1.0.0'
 It's very easy to use, just follow these steps:
 
 ### Initializing
+For Infinity loader...
 
 ```swift
 var container: Infinity?

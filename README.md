@@ -8,32 +8,32 @@ Fancy and beautiful loaders for you awesome apps!
 
 **Infinity loader**
 <p align="center">
-<img src="Images/infinityloader.gif"/>
+<img src="https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/infinityloader.gif"/>
 </p>
 
 **Orbit loader**
 <p align="center">
-<img src="Images/orbitloader.gif" height="120px"/>
+<img src="https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/orbitloader.gif" height="120px"/>
 </p>
 
 **Circles in motion loader**
 <p align="center">
-<img src="Images/circleinmotionloader.gif" height="120px"/>
+<img src="https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/circleinmotionloader.gif" height="120px"/>
 </p>
 
 **Blinking circles loader**
 <p align="center">
-<img src="Images/blinkingcirclesLoader.gif" height="120px"/>
+<img src="https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/blinkingcirclesLoader.gif" height="120px"/>
 </p>
 
 **Circle loader**
 <p align="center">
-<img src="Images/circleLoader.gif" height="120px"/>
+<img src="https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/circleLoader.gif" height="120px"/>
 </p>
 
 **Water Waves loader**
 <p align="center">
-<img src="Images/waterwaves.gif" height="120px"/>
+<img src="https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/waterwaves.gif" height="120px"/>
 </p>
 
 # Requirements

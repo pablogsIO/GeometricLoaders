@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     'https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/orbitloader.gif',
     'https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/waterwaves.gif']
   s.platform     = :ios, '10.0'
-  s.source_files = 'Source'
+  s.source_files = 'Source/*.swift'
   s.frameworks   = 'UIKit'
   s.swift_version= '4.0'
   s.requires_arc = true

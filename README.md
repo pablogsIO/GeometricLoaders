@@ -50,7 +50,7 @@ Just drag and drop Source folder in your project
 
 use_frameworks!
 
-pod 'GeometricLoaders', '~>1.0'
+pod 'GeometricLoaders', '~>1.0.0'
 
 # Using GeometricLoaders
 

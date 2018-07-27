@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/pablogsIO/GeometricLoaders"
   s.license      = 'MIT'
   s.author       = "Pablo Garcia"
-  s.source       = { :git => "https://github.com/pablogsIO/GeometricLoaders.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/pablogsIO/GeometricLoaders.git", :tag => "1.0.1" }
   s.screenshots   = ['https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/infinityloader.gif',
     'https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/blinkingcirclesLoader.gif',
     'https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/circleLoader.gif',

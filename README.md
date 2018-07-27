@@ -48,7 +48,9 @@ Just drag and drop Source folder in your project
 
 ### Cocoapods
 
-In progress.....
+use_frameworks!
+
+pod 'GeometricLoaders', '~>1.0'
 
 # Using GeometricLoaders
 

@@ -26,7 +26,7 @@ public class GeometricLoader: UIView {
         preconditionFailure("This method has to be called from GeometricLoader subclass")
     }
  
-    func startAnimation() {
+    open func startAnimation() {
         
         self.configureLoader()
         isHidden = false
@@ -34,7 +34,7 @@ public class GeometricLoader: UIView {
             loaderSuperview?.addSubview(self)
         }
     }
-    func stopAnimation() {
+    open func stopAnimation() {
         
         self.isHidden = false
         self.isAnimating = false

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GeometricLoaders"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Fancy and beautiful loaders for you awesome apps!"
   s.homepage     = "https://github.com/pablogsIO/GeometricLoaders"
   s.license      = 'MIT'

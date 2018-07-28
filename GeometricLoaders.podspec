@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "GeometricLoaders"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Fancy and beautiful loaders for you awesome apps!"
   s.homepage     = "https://github.com/pablogsIO/GeometricLoaders"
   s.license      = 'MIT'
   s.author       = "Pablo Garcia"
-  s.source       = { :git => "https://github.com/pablogsIO/GeometricLoaders.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/pablogsIO/GeometricLoaders.git", :tag => s.version }
   s.screenshots   = ['https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/infinityloader.gif',
     'https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/blinkingcirclesLoader.gif',
     'https://raw.githubusercontent.com/pablogsIO/GeometricLoaders/master/Images/circleLoader.gif',

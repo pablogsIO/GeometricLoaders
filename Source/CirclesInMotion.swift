@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CirclesInMotion: GeometricLoader {
+public class CirclesInMotion: GeometricLoader {
     
     private var circles = [CAShapeLayer]()
     private let totalCircles = 4
@@ -45,10 +45,10 @@ class CirclesInMotion: GeometricLoader {
         var offset :TimeInterval = CACurrentMediaTime()
         
         loaderView.layer.add(rotationAnimation(beginAfter: offset), forKey: nil)
-        var i = 0
+        var index = 0
         circles.forEach {
-            i += 1
-            $0.add(scaleAndMoveToCornerAnimation(position: i), forKey: "scaleandmovetocorner")
+            index += 1
+            $0.add(scaleAndMoveToCornerAnimation(position: index), forKey: "scaleandmovetocorner")
             offset += 0.25
         }
     }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GeometricLoader: UIView {
+public class GeometricLoader: UIView {
     
     internal var loaderView = UIView()
     internal var loaderSuperview: UIView?

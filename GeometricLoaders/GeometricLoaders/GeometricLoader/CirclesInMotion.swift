@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CirclesInMotion: GeometricLoader {
+public class CirclesInMotion: GeometricLoader {
     
     private var circles = [CAShapeLayer]()
     private let totalCircles = 4

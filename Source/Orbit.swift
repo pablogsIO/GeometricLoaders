@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Orbit: GeometricLoader {
+public class Orbit: GeometricLoader {
     
     private let radius: CGFloat = 5.0
     private var circle = CAShapeLayer()

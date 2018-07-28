@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Infinity: GeometricLoader {
+public class Infinity: GeometricLoader {
     
     internal let radius: CGFloat = 4.0
     internal let totalCircles = 10

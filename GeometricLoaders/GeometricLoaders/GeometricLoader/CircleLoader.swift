@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CircleLoader: GeometricLoader {
+public class CircleLoader: GeometricLoader {
     
     internal var shapeLayer = CAShapeLayer()
     internal var duration: CGFloat = 5.0

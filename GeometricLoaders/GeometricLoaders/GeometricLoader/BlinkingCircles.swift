@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BlinkingCircles: GeometricLoader,CAAnimationDelegate {
+public class BlinkingCircles: GeometricLoader,CAAnimationDelegate {
     
     private var circles = [CAShapeLayer]()
     private var circleRadius :CGFloat = 5

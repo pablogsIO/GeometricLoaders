@@ -61,7 +61,7 @@ public class CirclesInMotion: GeometricLoader {
         animation.fromValue = 0
         animation.toValue = 2*CGFloat.pi
         animation.duration = 1.5
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         animation.repeatCount = Float.infinity
         
         return animation
@@ -73,7 +73,7 @@ public class CirclesInMotion: GeometricLoader {
         
         animationGroup.animations = [scaleAnimation(), moveToCornerAnimation(position: position)]
         animationGroup.duration = 2
-        animationGroup.fillMode = kCAFillModeForwards
+        animationGroup.fillMode = CAMediaTimingFillMode.forwards
         animationGroup.isRemovedOnCompletion = false
         
         return animationGroup
@@ -86,7 +86,7 @@ public class CirclesInMotion: GeometricLoader {
         scaleAnimation.fromValue = 0
         scaleAnimation.toValue = 1
         scaleAnimation.duration = 2
-        scaleAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        scaleAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         
         return scaleAnimation
     }
@@ -109,8 +109,8 @@ public class CirclesInMotion: GeometricLoader {
             break
         }
         moveAnimation.duration = 2
-        moveAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
-        moveAnimation.fillMode = kCAFillModeForwards
+        moveAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
+        moveAnimation.fillMode = CAMediaTimingFillMode.forwards
         moveAnimation.isRemovedOnCompletion = false
         
         return moveAnimation

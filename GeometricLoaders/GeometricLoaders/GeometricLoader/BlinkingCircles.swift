@@ -85,7 +85,7 @@ public class BlinkingCircles: GeometricLoader,CAAnimationDelegate {
         moveAnimation.fromValue = CGPoint(x: firstCirclePosition.x + CGFloat((index-1)*circlesSpacing),y: firstCirclePosition.y)
         moveAnimation.toValue = CGPoint(x: firstCirclePosition.x + CGFloat((index)*circlesSpacing),y: firstCirclePosition.y)
         moveAnimation.duration = 0.5
-        moveAnimation.fillMode = kCAFillModeForwards
+        moveAnimation.fillMode = CAMediaTimingFillMode.forwards
         moveAnimation.isRemovedOnCompletion = false
 
         return moveAnimation
@@ -99,7 +99,7 @@ public class BlinkingCircles: GeometricLoader,CAAnimationDelegate {
         opacityAnimation.autoreverses = false
         opacityAnimation.values = [0, 0.5, 1]
         opacityAnimation.duration = duration
-        opacityAnimation.fillMode = kCAFillModeForwards
+        opacityAnimation.fillMode = CAMediaTimingFillMode.forwards
         opacityAnimation.isRemovedOnCompletion = false
         
         return opacityAnimation
@@ -112,8 +112,8 @@ public class BlinkingCircles: GeometricLoader,CAAnimationDelegate {
         scaleDown.fromValue = 1
         scaleDown.toValue = 0.3
         scaleDown.duration = 0.5
-        scaleDown.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
-        scaleDown.fillMode = kCAFillModeForwards
+        scaleDown.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        scaleDown.fillMode = CAMediaTimingFillMode.forwards
         scaleDown.isRemovedOnCompletion = false
         
         let scaleUp = CABasicAnimation(keyPath: "transform.scale")
@@ -122,8 +122,8 @@ public class BlinkingCircles: GeometricLoader,CAAnimationDelegate {
         scaleUp.fromValue = 0.3
         scaleUp.toValue = 1
         scaleUp.duration = 0.3
-        scaleUp.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
-        scaleUp.fillMode = kCAFillModeForwards
+        scaleUp.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
+        scaleUp.fillMode = CAMediaTimingFillMode.forwards
         scaleUp.isRemovedOnCompletion = false
         
         let group = CAAnimationGroup()

@@ -55,7 +55,7 @@ public class WaterWaves: GeometricLoader {
         animationGroup.beginTime = begin
         animationGroup.animations = [fadeInAnimation(),scaleAnimation(),fadeOutAnimation()]
         animationGroup.duration = 2
-        animationGroup.fillMode = kCAFillModeForwards
+        animationGroup.fillMode = CAMediaTimingFillMode.forwards
         animationGroup.isRemovedOnCompletion = false
         animationGroup.repeatCount = .infinity
         
@@ -91,7 +91,7 @@ public class WaterWaves: GeometricLoader {
         scaleAnimation.fromValue = 0.1
         scaleAnimation.toValue = 1.5
         scaleAnimation.duration = 2
-        scaleAnimation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        scaleAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         
         return scaleAnimation
     }

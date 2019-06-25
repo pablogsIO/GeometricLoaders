@@ -14,7 +14,7 @@ public class GeometricLoader: UIView {
     internal var loaderSuperview: UIView?
     internal var isAnimating = false
     
-    open static func createGeometricLoader() -> Self {
+    public static func createGeometricLoader() -> Self {
         
         let loader = self.init()
         loader.setupView()

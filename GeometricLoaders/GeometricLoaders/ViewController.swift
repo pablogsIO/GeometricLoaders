@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         geometricLoader = Infinity.createGeometricLoader()
         geometricLoader.startAnimation()
         window!.addSubview(segmentedControl)
-        window?.bringSubview(toFront: segmentedControl)
+        window?.bringSubviewToFront(segmentedControl)
     }
     
     @objc func selectGeometricLoader(_ sender: UISegmentedControl) {
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         }
         geometricLoader.startAnimation()
         let window = UIApplication.shared.delegate?.window!
-        window!.bringSubview(toFront: segmentedControl)
+        window!.bringSubviewToFront(segmentedControl)
     }
     
 }

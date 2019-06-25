@@ -69,7 +69,7 @@ public class Infinity: GeometricLoader {
         opacityAnimation.autoreverses = false
         opacityAnimation.values = [0, 0.5, 1]
         opacityAnimation.duration = 1
-        opacityAnimation.fillMode = kCAFillModeForwards
+        opacityAnimation.fillMode = CAMediaTimingFillMode.forwards
         opacityAnimation.isRemovedOnCompletion = false
         
         return opacityAnimation

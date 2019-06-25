@@ -53,7 +53,7 @@ public class Orbit: GeometricLoader {
         moveRight.fromValue = 0
         moveRight.toValue = loaderView.frame.width
         moveRight.duration = 2
-        moveRight.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        moveRight.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         
         let moveLeft = CABasicAnimation(keyPath: "position.x")
         
@@ -61,7 +61,7 @@ public class Orbit: GeometricLoader {
         moveLeft.fromValue = loaderView.frame.width
         moveLeft.toValue = 0
         moveLeft.duration = 2
-        moveLeft.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        moveLeft.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         
         let scaleUpDown = CAKeyframeAnimation(keyPath: "transform.scale")
         

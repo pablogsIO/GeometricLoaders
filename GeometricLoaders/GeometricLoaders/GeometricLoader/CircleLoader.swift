@@ -49,7 +49,7 @@ public class CircleLoader: GeometricLoader {
         animation.duration = CFTimeInterval(duration / 2.0)
         animation.fromValue = 0
         animation.toValue = 1
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         return animation
     }
     private func strokeStartAnimation() -> CABasicAnimation {
@@ -58,14 +58,14 @@ public class CircleLoader: GeometricLoader {
         animation.duration = CFTimeInterval(duration / 2.0)
         animation.fromValue = 0
         animation.toValue = 1
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         return animation
     }
     private func rotationAnimation() -> CABasicAnimation {
         let animation = CABasicAnimation(keyPath: "transform.rotation.z")
         animation.fromValue = 0
         animation.toValue = 2*CGFloat.pi
-        animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+        animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.linear)
         animation.repeatCount = Float.infinity
         return animation
     }
@@ -73,7 +73,7 @@ public class CircleLoader: GeometricLoader {
         let animationGroup = CAAnimationGroup()
         animationGroup.animations = [strokeStartAnimation(),strokeEndAnimation(),rotationAnimation()]
         animationGroup.duration = CFTimeInterval(duration)
-        animationGroup.fillMode = kCAFillModeBoth
+        animationGroup.fillMode = CAMediaTimingFillMode.both
         animationGroup.isRemovedOnCompletion = false
         animationGroup.repeatCount = Float.infinity
         shapeLayer.add(animationGroup, forKey: "loading")

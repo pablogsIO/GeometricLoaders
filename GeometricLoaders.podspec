@@ -17,5 +17,4 @@ Pod::Spec.new do |s|
   s.frameworks   = 'UIKit'
   s.swift_version= '5.0'
   s.requires_arc = true
-  s.social_media_url = 'https://twitter.com/_pablogs_'
 end
